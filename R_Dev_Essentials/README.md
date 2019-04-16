@@ -26,3 +26,6 @@ We used the following course and the Swirlify package to learn how to make Swirl
 - **Test**
 
 - **Documentation**
+
+
+We are planning question sets for the lessons and will be able to do text, multiple choice, script, etc. 
