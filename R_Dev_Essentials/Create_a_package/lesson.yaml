@@ -7,8 +7,33 @@
   Version: 2.4.3
 
 - Class: text
-  Output: In this lesson, we will explore package development in R. 
-  
+  Output: In this lesson, we will explore package development in R.
+ 
 - Class: text
-  Output: If you need help 
-  Todo: create help.start() resource page
+  Output: If you need help
+  #Todo: create help function to refer to outside resources
+ 
+- Class: text
+  Output: "Prerequisites: devtools, usethis, forcats, pkgdown"
+
+- Class: text
+  Output: "Step 1 usethis::create_package('../package_name')    Adjust the path as needed
+You may be asked if you would like to use the path you specified because another package exists there." 
+ 
+- Class: text
+  Output: "Create the R package => 
+      Structure: DESCRIPTION is the only mandatory file. Additional subdirectories are: (1) man/, (2) R/, (3) data/, (4) src/, (5) tests/, (6) exec/, (7) inst/, and (8) a configure script. 
+     Create the package: File→ New Project-->New Directory-->R package→’input a name for the package’--> Create Project
+    Use the ‘Build and Reload’ command to re-build the package
+    Modify the DESCRIPTION file
+    OPTIONAL: Use the save() function to write your data to the subdirectory data"
+    
+            
+- Class: text
+  Output: Document the code
+ 
+- Class: text
+  Output: "Validate the package: Use the Check command to check your package"
+
+
+
