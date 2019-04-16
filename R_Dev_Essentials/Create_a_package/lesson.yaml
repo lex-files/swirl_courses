@@ -1,7 +1,14 @@
 - Class: meta
-  Course: R_Dev_Essentials
+  Course: R Dev Essentials
   Lesson: Create a package
-  Author: your name goes here
+  Author: Valquiria Quirino, Alexis Saltzman
   Type: Standard
-  Organization: your organization's name goes here
+  Organization: unconference
   Version: 2.4.3
+
+- Class: text
+  Output: In this lesson, we will explore package development in R. 
+  
+- Class: text
+  Output: If you need help 
+  Todo: create help.start() resource page
