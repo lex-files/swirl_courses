@@ -7,7 +7,8 @@
   Version: 2.4.3
 
 - Class: text
-  Output: In this lesson, we will explore package development in R.
+  Output: "In this lesson, we will explore package development in R. Steps provided in lesson are derived from 
+    presentation authored by Ian Lyttle (https://uncoast-unconf.github.io/uu-2019-day-zero/03-packages/package-development.html)"
  
 - Class: text
   Output: If you need help
@@ -17,7 +18,7 @@
   Output: "Prerequisites: devtools, usethis, forcats, pkgdown"
 
 - Class: text
-  Output: "Step 1 usethis::create_package('../package_name')    Adjust the path as needed
+  Output: "Step 1 create_package('../package_name')    Adjust the path as needed
 You may be asked if you would like to use the path you specified because another package exists there." 
  
 - Class: text
@@ -37,3 +38,9 @@ You may be asked if you would like to use the path you specified because another
 
 
 
+
+- Class: script
+  Output: run create_package() with path "../testpack"
+  AnswerTests: create_package("../testpack"")
+  Hint: hint
+  Script: script-name.R
