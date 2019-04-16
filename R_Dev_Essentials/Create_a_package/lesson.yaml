@@ -15,7 +15,9 @@
   #Todo: create help function to refer to outside resources
  
 - Class: text
-  Output: "Prerequisites: devtools, usethis, forcats, pkgdown"
+  Output: "Prerequisites: devtools, usethis, forcats, pkgdown, testthat"
+  
+
 
 - Class: text
   Output: "Step 1 create_package('../package_name')    Adjust the path as needed
