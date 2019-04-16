@@ -38,6 +38,10 @@ You may be asked if you would like to use the path you specified because another
 - Class: text
   Output: "Validate the package: Use the Check command to check your package"
 
+- Class: text
+  Output: After the next instruction is completed correctly, Rstudio will restart to finalize the creation 
+          of the package. The restart signifies the completion of this lesson, congratulations! Continue with
+          Lesson 2 to learn how to build the framework for your package. 
 
 
 
@@ -45,4 +49,4 @@ You may be asked if you would like to use the path you specified because another
   Output: run create_package() with path "../testpack"
   AnswerTests: create_package("../testpack"")
   Hint: hint
-  Script: script-name.R
+  Script: testpack.R
